@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "563143455843",
+    "firebase_url": "https://maintenancemaster-84c0d-default-rtdb.firebaseio.com",
+    "project_id": "maintenancemaster-84c0d",
+    "storage_bucket": "maintenancemaster-84c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563143455843:android:8f3aeb8f4c76fc82f67456",
+        "android_client_info": {
+          "package_name": "com.example.sandbox_hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563143455843-v1stemsv7ir4c156bq6h08d7up5detoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvLFIP6E3UJyJvT6GEWgA_U5U3zIrzK98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563143455843-v1stemsv7ir4c156bq6h08d7up5detoa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "563143455843-tls85sm5sijocd1fugh3k987i2ln808t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sandboxHackathon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
