@@ -72,10 +72,11 @@ class _UserInputViewState extends State<UserInputView> {
 
   //
   void _register() async {
-    WidgetsFlutterBinding.ensureInitialized();
-
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
+    showDialog(
+      //This creates the loading indicator
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => Center(child: CircularProgressIndicator()),
     );
     // var DBInstance = FirebaseFirestore.instance;
 
@@ -138,6 +139,8 @@ class _UserInputViewState extends State<UserInputView> {
     {
       print(e);
     }
+    Navigator.of(context, rootNavigator: true)
+        .pop(context);
 
     Navigator.push(
       context,
