@@ -9,6 +9,14 @@ class NavigationBar1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 160,
+      decoration: BoxDecoration(
+          // border: Border.all(color: Colors.black)
+            border: Border(
+              bottom: BorderSide(
+                color: Colors.black
+              )
+            )
+      ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
@@ -33,6 +41,7 @@ class NavigationBar1 extends StatelessWidget {
     );
   }
 }
+
 
 class _NavBarItem extends StatelessWidget {
   final String title;

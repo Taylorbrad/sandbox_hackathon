@@ -37,7 +37,6 @@ class _HomeViewState extends State<HomeView> {
   {
     print("test");
     // Navigator.of(context, rootNavigator: true).pop(context);
-
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => UserInputView()),

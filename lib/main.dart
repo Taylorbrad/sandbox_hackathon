@@ -34,10 +34,6 @@ class MyApp extends StatelessWidget {
 }
 
 
-
-
-
-
 // import 'package:flutter/material.dart';
 // import 'package:sandbox_hackathon/views/home/home_view.dart';
 // import 'login_frontend.dart';
